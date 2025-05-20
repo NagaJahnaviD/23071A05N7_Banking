@@ -6,7 +6,8 @@ function Header(props) {
 
 
   return (
-    <div className='bg-dark'>
+    <div className='bg-dark text-light'>
+      23071A05N7
         <ul className='justify-content-end fs-4 nav'>
             <li className='nav-item'>
                 <Link className='nav-link' to="">Home</Link>

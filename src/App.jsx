@@ -69,20 +69,18 @@ function App() {
         {
           path:"about",
           element:<About currentUser={currentUser}/>,
-          children:[
+          
+        },
                 {path:"transfers",
                 element:<Transfers/>},
-                {
-                  path:"transactions",
-                element:<Transactions/>
+        {
+               path:"transactions",
+              element:<Transactions/>
                 },
                 {
-                  path:"balance",
-                element:<Balance/>
-                }
-          ]
-
-        },
+                path:"balance",
+                element:<Balance currentUser={currentUser}/>
+                },
         {
           path:"aboutBank",
           element:<AboutBank />
