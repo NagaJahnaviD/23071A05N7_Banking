@@ -19,6 +19,7 @@ function Catelogue({cart,setCart}) {
 
   return (
     <div className='margin-auto mx-5 my-5'>
+      <h1 className='text-center'>Contact Us</h1>
         <div className="row">
         {products.map((item) => (
           <div key={item.id} className="col-md-4 mb-4"> 

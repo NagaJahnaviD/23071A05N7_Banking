@@ -13,7 +13,10 @@ import Contact from './components/Contact'
 import Home from './components/Home'
 import Root from './components/Root'
 import ErroeEle from './components/ErroeEle'
+import Transactions from './components/Transactions'
+import Transfers from './components/Transfers'
 import {RouterProvider, createBrowserRouter} from 'react-router-dom'
+import Balance from './components/BAlance'
 function App() {
   const [loginStatus,setLoginStatus]=useState(false);
   const [currentUser,setCurrentUser]=useState();
@@ -65,7 +68,20 @@ function App() {
         },
         {
           path:"about",
-          element:<About currentUser={currentUser}/>
+          element:<About currentUser={currentUser}/>,
+          children:[
+                {path:"transfers",
+                element:<Transfers/>},
+                {
+                  path:"transactions",
+                element:<Transactions/>
+                },
+                {
+                  path:"balance",
+                element:<Balance/>
+                }
+          ]
+
         },
         {
           path:"aboutBank",

@@ -34,14 +34,11 @@ function Header(props) {
               )
             }
             <li className='nav-item'>
-                <Link className='nav-link' to="cart">Cart</Link>
+                <Link className='nav-link' to="catelogue">Contact</Link>
             </li>
 
             <li className='nav-item'>
-                <Link className='nav-link' to="catelogue">About</Link>
-            </li>
-            <li className='nav-item'>
-                <Link className='nav-link' to="contact">Contact</Link>
+                <Link className='nav-link' to="aboutBank">About</Link>
             </li>
 
         </ul>
