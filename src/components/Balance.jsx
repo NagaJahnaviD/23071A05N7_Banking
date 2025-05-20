@@ -3,15 +3,15 @@ import React from 'react'
 function Balance() {
   return (
     <div className='container lead'>
-        <h1 className='text-center'>About</h1>
+        <h1 className='text-center'>Balance Enquiry</h1>
         <div className='card shadow p-5 w-50 mx-auto'>
-            <div>Full Name:{currentUser.fullname}</div>
-            <div>Account Number:{currentUser.accountNum}</div>
-            <div>Email:{currentUser.email}</div>
-            <div>Phone number:{currentUser.phone}</div>
-            <div>Home branch:{currentUser.branch}</div>
+            <div>Full Name:Dannayak Naga Jahanvi</div>
+            <div>Account Number:12345</div>
+            <div>Email:nagajahnavidannayak@gmail.com</div>
+            <div>Phone number:912379120</div>
+            <div>Home branch:Bachupally</div>
 
-            <h1>Balance Ampunt as on 20/05/2025: 15,000/-</h1>
+            <h3>Balance Amount as on 20/05/2025: 15,000/-</h3>
         </div>
 
     </div>
