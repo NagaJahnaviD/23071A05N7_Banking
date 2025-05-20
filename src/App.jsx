@@ -71,16 +71,16 @@ function App() {
           element:<About currentUser={currentUser}/>,
           
         },
-                {path:"transfers",
+          {path:"transfers",
                 element:<Transfers/>},
         {
                path:"transactions",
               element:<Transactions/>
                 },
-                {
+          {
                 path:"balance",
                 element:<Balance currentUser={currentUser}/>
-                },
+        },
         {
           path:"aboutBank",
           element:<AboutBank />
